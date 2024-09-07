@@ -14,3 +14,6 @@
 * main.c
   * 初始化OLED、按鍵、ADC、PWM。
   * 引入上述的標頭檔，並利用函數達到本專案的目的。
+
+## Note
+[Demo影片](https://youtu.be/k_4l97gAIBo)
