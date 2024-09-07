@@ -35,7 +35,7 @@ int main(void)
 			else // Turn ON
 			{
 				PWM_SetCompare1(CCR_Value);
-				OLED_ShowString(1,1,"LED_ON");
+				OLED_ShowString(1,1,"LED_ON ");
 				Turn=1;
 			}
 		}
