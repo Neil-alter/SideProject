@@ -1,5 +1,5 @@
 # SideProject Description
-下方為本專案的硬體配置，使用的開發版型號為STM32F103C8T6。專案中，我利用STM32的定時器來生成PWM信號，並通過ADC（模數轉換器）來讀取電位器的模擬輸入，以調控LED的亮度。這樣使用者可以根據需要調整電位器，從而改變LED的亮度，並在OLED上直觀地看到目前的LED開關狀態和PWM占空比。
+下方為本專案的硬體配置，使用的開發版型號為STM32F103C8T6。專案中，我利用STM32的定時器來生成PWM信號，並且透過按鍵來控制LED開關。之後通過STM的ADC功能來讀取電位器的模擬輸入，以調控LED的亮度。這樣使用者可以根據需要調整電位器，從而改變LED的亮度，並在OLED上直觀地看到目前的LED開關狀態和PWM占空比。
 ![SideProject](https://github.com/user-attachments/assets/d78f8c4a-429f-4678-8547-93eb4a8bf8a4)
 
 ## Files
