@@ -1,6 +1,6 @@
 # SideProject Description
 下方為本專案的硬體配置，使用的開發版型號為STM32F103C8T6，flash的型號為W25Q64。專案中，我利用STM32的Timer來生成PWM信號，之後通過STM32的ADC功能來讀取可變電阻的模擬輸入，以調控LED的亮度。另外兩個按鍵分別用於儲存這次的結果到flash裡，以及顯示上一次儲存的結果。這樣使用者可以根據需要調整可變電阻，從而改變LED的亮度，並在OLED上直觀地看到目前的和PWM duty cycle和模擬輸入電壓。
-## Files![SideProject2](https://github.com/user-attachments/assets/bf567b31-1c1d-4b63-b624-9d3a97a4c95b)
+![SideProject2](https://github.com/user-attachments/assets/4bd10659-f4ea-43a4-854c-ebaa2eeb0fab)
 
 * AD.c、AD.h
   * ADC初始化配置，通過可變電阻輸入的訊號，用於調整LED燈的Duty cycle。
