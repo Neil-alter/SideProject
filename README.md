@@ -17,3 +17,6 @@
 * main.c
   * 初始化OLED、Key、ADC、PWM、W25Q64。
   * 引入上述的標頭檔，並利用函數達到本專案的目的。
+
+# Note
+[Demo](https://youtu.be/WDBnx0JZ0qc)
